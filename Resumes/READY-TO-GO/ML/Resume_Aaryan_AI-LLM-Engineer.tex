@@ -1,0 +1,58 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1ex plus .3ex minus .2ex}{0.5ex plus .1ex}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em, parsep=0pt}
+\setlength{\parindent}{0pt}
+\begin{document}
+\vspace*{-1cm}
+\begin{center}
+{\LARGE\bfseries Aaryan S. Maralihalli}\\[0.5em]
+{\large AI / LLM (GenAI) Engineer}\\[0.3em]
+Bangalore, India $\cdot$ open to remote $\cdot$ aaryanmaralihalli@gmail.com $\cdot$ +91-9019884683 $\cdot$ \href{https://github.com/Aaryansm11}{github.com/Aaryansm11} $\cdot$ \href{https://linkedin.com/in/aaryan-maralihalli}{linkedin.com/in/aaryan-maralihalli}
+\end{center}\vspace{0.4ex}
+\section*{Summary}
+AI/LLM engineer who ships GenAI to production --- strong on the two most in-demand skills, \textbf{RAG and fine-tuning}. Fine-tuned \textbf{Mistral-7B (LoRA)}, built a \textbf{secure RAG service} (PII redaction, RBAC, FAISS) and a \textbf{BERT knowledge-graph API}. IEEE-published; CS graduate, Jul 2026.\par\vspace{2pt}
+\section*{Selected Projects}
+\vspace{1pt}\textbf{LANGTRON --- AI technical-memory assistant}\hfill {\small\href{https://github.com/Aaryansm11/LANGTRON}{github.com/Aaryansm11/LANGTRON}}
+\begin{itemize}
+\item \textbf{Fine-tuned Mistral-7B (LoRA)} on 30K technical Q\&A; \textbf{dual-model} architecture (retrieval + problem-solving); \textbf{FAISS} semantic memory with \textbf{sub-100ms} retrieval; 100\% local.
+\end{itemize}
+\vspace{1pt}\textbf{SDIS --- Secure RAG service}\hfill {\small\href{https://github.com/Aaryansm11/SDIS}{github.com/Aaryansm11/SDIS}}
+\begin{itemize}
+\item Retrieval-augmented document intelligence with \textbf{PII redaction (spaCy)}, embedding search (\textbf{FAISS}, OpenAI/HF), \textbf{RBAC + JWT}, and immutable audit logging; \textbf{FastAPI} + PostgreSQL, Dockerized.
+\end{itemize}
+\vspace{1pt}\textbf{Langtron-KGS --- knowledge graph}\hfill {\small\href{https://github.com/Aaryansm11/Langtron-KGS}{github.com/Aaryansm11/Langtron-KGS}}
+\begin{itemize}
+\item \textbf{SpaCy NER + BERT relation extraction} $\rightarrow$ \textbf{Neo4j}, with Wikidata entity linking; FastAPI REST API + Streamlit explorer.
+\end{itemize}
+\vspace{1pt}\textbf{Self-supervised cardiac model (published)}\hfill {\small\href{https://github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}{github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}}
+\begin{itemize}
+\item Contrastive learning on ECG/PPG; 1D-CNN encoder + XAI; \textbf{ROC-AUC 0.757}.
+\end{itemize}
+\section*{Experience}
+\vspace{1pt}\textbf{HyperVerge, Bangalore}\\
+\textit{Integration Engineer Intern}\hfill Jan 2026 -- Jun 2026\par\vspace{1pt}
+\begin{itemize}
+\item Integrated and tuned \textbf{production AI verification modules} (face match, liveness, name match) for 6 enterprise fintech clients.
+\end{itemize}
+\vspace{1pt}\textbf{Integrated Genetic Solutions (IGS), Bangalore}\\
+\textit{Project Intern, Medical AI}\hfill Jun -- Aug 2024\par\vspace{1pt}
+\begin{itemize}
+\item ML workflows on a HIPAA-compliant document-AI product.
+\end{itemize}
+\section*{Skills}
+\begin{itemize}
+\item \textbf{LLM/GenAI:} RAG, LLM fine-tuning (LoRA), LLM APIs (OpenAI/HF), LangChain, prompt engineering, embeddings, vector DBs (FAISS), HuggingFace Transformers
+\item \textbf{NLP:} spaCy NER, BERT relation extraction, knowledge graphs (Neo4j)
+\item \textbf{Engineering:} FastAPI, Python, PostgreSQL, Docker, AWS; DSA (150+ LeetCode)
+\end{itemize}
+\section*{Publication \& Education}
+\begin{itemize}
+\item \textbf{IEEE ICASI 2026 (Kyoto), Oral Presentation} --- \textit{"An Interpretable Model for Stroke Prediction and Arrhythmia Classification using ECG \& PPG."}
+\item \textbf{B.Tech, Computer Science} --- PES University, Bangalore --- 2022 -- Jul 2026
+\end{itemize}
+\end{document}

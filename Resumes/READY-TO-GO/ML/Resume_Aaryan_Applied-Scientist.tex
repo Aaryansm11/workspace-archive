@@ -1,0 +1,56 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1ex plus .3ex minus .2ex}{0.5ex plus .1ex}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em, parsep=0pt}
+\setlength{\parindent}{0pt}
+\begin{document}
+\vspace*{-1cm}
+\begin{center}
+{\LARGE\bfseries Aaryan S. Maralihalli}\\[0.5em]
+\textbf{Machine Learning / Research Engineer} $\cdot$ \textit{(also for new-grad Applied Scientist / research-associate programs)} $\cdot$ Bangalore, India $\cdot$ open to remote $\cdot$ aaryanmaralihalli@gmail.com $\cdot$ +91-9019884683 $\cdot$ \href{https://github.com/Aaryansm11}{github.com/Aaryansm11} $\cdot$ \href{https://linkedin.com/in/aaryan-maralihalli}{linkedin.com/in/aaryan-maralihalli}
+\end{center}\vspace{0.4ex}
+\section*{Summary}
+ML researcher with a \textbf{peer-reviewed IEEE publication} in interpretable deep learning for physiological signals. Builds \textbf{self-supervised / contrastive} and multimodal models with explainability, end-to-end from data to evaluation --- and ships them (FastAPI). CS graduate, Jul 2026.\par\vspace{2pt}
+\section*{Publication}
+\begin{itemize}
+\item \textbf{Aaryan S. Maralihalli et al.}, \textit{"An Interpretable Model for Stroke Prediction and Arrhythmia Classification using ECG \& PPG,"} \textbf{IEEE ICASI 2026}, Kyoto, Japan --- \textbf{Oral Presentation} (Paper J260481).
+\end{itemize}
+\section*{Research \& Projects}
+\vspace{1pt}\textbf{Self-Supervised Cardiac Pattern Discovery (capstone --- basis of the publication)}\hfill {\small\href{https://github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}{github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}}
+\begin{itemize}
+\item \textbf{Contrastive learning (SimCLR, NT-Xent loss, $\tau$=0.07)} on the \textbf{MIMIC-III} Waveform DB --- 133,157 segments, 8 channels, 288 matched patients; designed a 1D-CNN \textbf{WaveformEncoder} (\textasciitilde{}238K params, 128-d embeddings); fused with a Random Forest clinical model; \textbf{ROC-AUC 0.757}, benchmarked against \textbf{CHA2DS2-VASc}; explainability via temporal saliency, channel importance, and \textbf{integrated gradients}.
+\end{itemize}
+\vspace{1pt}\textbf{FinFusion}
+\begin{itemize}
+\item Built the \textbf{core multimodal forecasting model} (LSTM + transformer sentiment fusion), MAPE $\uparrow$15--20\% vs single-modal baselines.
+\end{itemize}
+\vspace{1pt}\textbf{LANGTRON}\hfill {\small\href{https://github.com/Aaryansm11/LANGTRON}{github.com/Aaryansm11/LANGTRON}}
+\begin{itemize}
+\item Fine-tuned \textbf{Mistral-7B (LoRA)}; FAISS semantic retrieval.
+\end{itemize}
+\section*{Experience}
+\vspace{1pt}\textbf{HyperVerge, Bangalore}\\
+\textit{Integration Engineer Intern}\hfill Jan 2026 -- Jun 2026\par\vspace{1pt}
+\begin{itemize}
+\item Applied production AI/ML verification models (face match, liveness, name match) for enterprise fintech clients; drove model-scoring improvements.
+\end{itemize}
+\vspace{1pt}\textbf{Integrated Genetic Solutions (IGS), Bangalore}\\
+\textit{Project Intern, Medical AI}\hfill Jun -- Aug 2024\par\vspace{1pt}
+\begin{itemize}
+\item ML workflows for medical document processing (HIPAA-compliant).
+\end{itemize}
+\section*{Skills}
+\begin{itemize}
+\item \textbf{Research:} self-supervised / contrastive learning, multimodal modeling, signal processing (ECG/PPG), experimental design, explainable AI, scientific writing
+\item \textbf{Tooling:} PyTorch, HuggingFace, NumPy/Pandas, scikit-learn, FAISS, Python
+\end{itemize}
+\section*{Education}
+\begin{itemize}
+\item \textbf{B.Tech, Computer Science} --- PES University, Bangalore --- 2022 -- Jul 2026
+\item \textit{Certifications:} CITI Program (research ethics: Conflicts of Interest; Data/Specimens Only Research)
+\end{itemize}
+\end{document}

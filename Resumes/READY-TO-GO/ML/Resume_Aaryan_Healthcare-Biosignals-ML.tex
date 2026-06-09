@@ -1,0 +1,52 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1ex plus .3ex minus .2ex}{0.5ex plus .1ex}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em, parsep=0pt}
+\setlength{\parindent}{0pt}
+\begin{document}
+\vspace*{-1cm}
+\begin{center}
+{\LARGE\bfseries Aaryan S. Maralihalli}\\[0.5em]
+{\large Healthcare / Biosignals Machine Learning}\\[0.3em]
+Bangalore, India $\cdot$ open to remote $\cdot$ aaryanmaralihalli@gmail.com $\cdot$ +91-9019884683 $\cdot$ \href{https://github.com/Aaryansm11}{github.com/Aaryansm11} $\cdot$ \href{https://linkedin.com/in/aaryan-maralihalli}{linkedin.com/in/aaryan-maralihalli}
+\end{center}\vspace{0.4ex}
+\section*{Summary}
+\vspace{1pt}\textbf{IEEE-published}\\
+\textit{ML engineer for healthcare/biosignals --- built an interpretable \textbf{ECG/PPG} model for stroke prediction \& arrhythmia classification (\textbf{MIMIC-III, ROC-AUC 0.757}) with clinician-facing explainability. Fluent with HIPAA-grade medical data. CS graduate, Jul 2026.}\hfill \par\vspace{1pt}
+\section*{Publication}
+\begin{itemize}
+\item \textbf{Aaryan S. Maralihalli et al.}, \textit{"An Interpretable Model for Stroke Prediction and Arrhythmia Classification using ECG \& PPG,"} \textbf{IEEE ICASI 2026}, Kyoto --- \textbf{Oral Presentation} (Paper J260481).
+\end{itemize}
+\section*{Healthcare ML Work}
+\begin{itemize}
+\item \textbf{Self-Supervised Cardiac Risk System (capstone / published):} \textbf{contrastive learning} on \textbf{MIMIC-III} ECG/PPG (133K segments, 8 channels, 288 patients); 1D-CNN \textbf{WaveformEncoder} + Random Forest clinical model over 14 features; \textbf{ROC-AUC 0.757}, recall 0.57 on the rare (\textasciitilde{}5\%) stroke class; benchmarked against the \textbf{CHA2DS2-VASc} clinical score.
+\item \textbf{Explainability for clinicians:} temporal saliency maps, channel importance, and integrated gradients; \textbf{FastAPI} inference + Streamlit dashboard generating clinician-facing risk reports.
+\item Arrhythmia classification (N/S/V/F/U) with SHAP-based interpretability.
+\end{itemize}
+\section*{Experience}
+\vspace{1pt}\textbf{Integrated Genetic Solutions (IGS), Bangalore}\\
+\textit{Project Intern, Medical AI}\hfill Jun -- Aug 2024\par\vspace{1pt}
+\begin{itemize}
+\item Worked on \textbf{HIPAA-compliant medical-AI} workflows extracting lab values from blood reports across major labs (Quest, LabCorp, BioReference); supported the dashboard migration handling \textbf{5M+ lab values}.
+\end{itemize}
+\vspace{1pt}\textbf{HyperVerge, Bangalore}\\
+\textit{Integration Engineer Intern}\hfill Jan 2026 -- Jun 2026\par\vspace{1pt}
+\begin{itemize}
+\item Applied production AI/ML models (face match, liveness) for regulated fintech clients.
+\end{itemize}
+\section*{Skills}
+\begin{itemize}
+\item \textbf{Biosignals/Clinical:} ECG/PPG signal processing, MIMIC-III, arrhythmia \& stroke modeling, clinical validation (CHA2DS2-VASc), HIPAA-aware handling
+\item \textbf{ML/DL:} PyTorch, contrastive/self-supervised learning, CNNs, Random Forest, XAI (saliency, integrated gradients, SHAP), scikit-learn
+\item \textbf{Engineering:} Python, FastAPI, NumPy/Pandas, HDF5, Docker
+\end{itemize}
+\section*{Education}
+\begin{itemize}
+\item \textbf{B.Tech, Computer Science} --- PES University, Bangalore --- 2022 -- Jul 2026
+\item \textit{Certifications:} CITI Program (Conflicts of Interest; Data/Specimens Only Research)
+\end{itemize}
+\end{document}

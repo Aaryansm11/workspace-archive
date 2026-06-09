@@ -1,0 +1,68 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1ex plus .3ex minus .2ex}{0.5ex plus .1ex}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em, parsep=0pt}
+\setlength{\parindent}{0pt}
+\begin{document}
+\vspace*{-1cm}
+\begin{center}
+{\LARGE\bfseries Aaryan S. Maralihalli}\\[0.5em]
+{\large Software \& Machine Learning Engineer}\\[0.3em]
+Bangalore, India $\cdot$ open to remote $\cdot$ aaryanmaralihalli@gmail.com $\cdot$ +91-9019884683 $\cdot$ \href{https://github.com/Aaryansm11}{github.com/Aaryansm11} $\cdot$ \href{https://linkedin.com/in/aaryan-maralihalli}{linkedin.com/in/aaryan-maralihalli}
+\end{center}\vspace{0.4ex}
+\section*{Summary}
+IEEE-published CS engineer who ships end-to-end --- applied ML, backend, and customer-facing solutions. At \textbf{HyperVerge}, took 3 fintech KYC clients live at \textbf{\textgreater{}95\% verification conversion (\textasciitilde{}10\% lift)} across 15+ lines-of-business. Fine-tuned \textbf{Mistral-7B (LoRA)}, built a \textbf{secure RAG} service, and published interpretable cardiac ML (\textbf{ROC-AUC 0.757}) at IEEE ICASI 2026.\par\vspace{2pt}
+\section*{Experience}
+\vspace{1pt}\textbf{HyperVerge, Bangalore}\\
+\textit{Integration / Solutions Engineer Intern}\hfill Jan 2026 -- Jun 2026\par\vspace{1pt}
+{\small\itshape AI identity-verification / KYC platform for banks \& fintechs}\par\vspace{1pt}
+\begin{itemize}
+\item Owned end-to-end solutioning and integration for \textbf{6 enterprise fintech/lending clients} across \textbf{15+ lines-of-business} --- CKYC, Video KYC/VPD, eSign, Name Match, Liveness, Face Match, DigiLocker, OCR/NSDL-PAN.
+\item Took \textbf{3 clients live at \textgreater{}95\% verification conversion} (\textasciitilde{}10\% lift) by matching pain points to the right modules and proactively adding ones they hadn't scoped.
+\item Authored Solution Design Docs, ran client integration calls and go-lives, issued production credentials, and drove post-go-live \textbf{BI \& stabilization}.
+\item Built \textbf{"HV Deals Bot"} (Python + Slack) to track deal stages and document the delivery process for new joiners.
+\end{itemize}
+\vspace{1pt}\textbf{Integrated Genetic Solutions (IGS), Bangalore}\\
+\textit{Project Intern, Medical AI \& Web Dev}\hfill Jun -- Aug 2024\par\vspace{1pt}
+\begin{itemize}
+\item Migrated a legacy Bootstrap-JS dashboard to \textbf{React (MERN)}, improving processing of \textbf{5M+ blood-lab values} on a HIPAA-compliant medical-AI product.
+\end{itemize}
+\section*{Selected Projects}
+\vspace{1pt}\textbf{Self-Supervised Cardiac Model (IEEE-published)}\hfill {\small\href{https://github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}{github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}}
+\begin{itemize}
+\item Contrastive learning (SimCLR, NT-Xent) on MIMIC-III ECG/PPG; 1D-CNN encoder + explainability; ROC-AUC 0.757, benchmarked vs CHA2DS2-VASc.
+\end{itemize}
+\vspace{1pt}\textbf{LANGTRON --- AI technical-memory assistant}\hfill {\small\href{https://github.com/Aaryansm11/LANGTRON}{github.com/Aaryansm11/LANGTRON}}
+\begin{itemize}
+\item Fine-tuned Mistral-7B (LoRA) on 30K technical Q\&A; dual-model architecture (retrieval + problem-solving); FAISS semantic memory with sub-100ms retrieval; 100\% local.
+\end{itemize}
+\vspace{1pt}\textbf{SDIS --- Secure Document Intelligence Service}\hfill {\small\href{https://github.com/Aaryansm11/SDIS}{github.com/Aaryansm11/SDIS}}
+\begin{itemize}
+\item FastAPI RAG microservice --- JWT/RBAC, PII redaction (spaCy), immutable audit logging, FAISS over PostgreSQL; Dockerized on AWS ECS; pytest + GitHub Actions CI.
+\end{itemize}
+\vspace{1pt}\textbf{our-life-hq --- 3D full-stack app}\hfill {\small\href{https://github.com/Aaryansm11/our-life-hq}{github.com/Aaryansm11/our-life-hq}}
+\begin{itemize}
+\item Interactive React Three Fiber front-end with Supabase auth/data, deployed on Cloudflare.
+\end{itemize}
+\vspace{1pt}\textbf{Live Emostream --- real-time pipeline}\hfill {\small\href{https://github.com/Aaryansm11/Live_emostream}{github.com/Aaryansm11/Live\_emostream}}
+\begin{itemize}
+\item Event-driven Kafka + Spark + Redis with nginx load balancing; load-tested to 1,000 concurrent users (Locust).
+\end{itemize}
+\section*{Skills}
+\begin{itemize}
+\item \textbf{Languages:} Python, JavaScript (React), SQL, Java
+\item \textbf{ML / AI:} PyTorch, Hugging Face Transformers, LLM fine-tuning (LoRA), RAG, LangChain, FAISS, spaCy, BERT, scikit-learn, contrastive / self-supervised learning, explainable AI
+\item \textbf{Backend / Data:} FastAPI, Flask, Django, REST, JWT, PostgreSQL, MySQL, Neo4j, Redis, Kafka, Spark, Docker, AWS (EC2/S3/IAM/ECS), GitHub Actions (CI)
+\item \textbf{Solutions \& CS:} solution design, client integration \& go-live, KYC / identity domain, BI \& stabilization; DSA (150+ LeetCode), OOAD, DBMS
+\end{itemize}
+\section*{Publication \& Education}
+\begin{itemize}
+\item \textbf{IEEE ICASI 2026 (Kyoto), Oral Presentation} --- "An Interpretable Model for Stroke Prediction and Arrhythmia Classification using ECG \& PPG."
+\item \textbf{B.Tech, Computer Science} --- PES University, Bangalore --- 2022 -- Jul 2026
+\item \textbf{Certifications:} Graphics Programming with WebGL (PESU I/O); Problem Solving --- Intermediate (HackerRank); CITI Program
+\end{itemize}
+\end{document}

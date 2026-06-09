@@ -1,0 +1,60 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1ex plus .3ex minus .2ex}{0.5ex plus .1ex}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em, parsep=0pt}
+\setlength{\parindent}{0pt}
+\begin{document}
+\vspace*{-1cm}
+\begin{center}
+{\LARGE\bfseries Aaryan S. Maralihalli}\\[0.5em]
+{\large Data / Platform Engineer}\\[0.3em]
+Bangalore, India $\cdot$ open to remote $\cdot$ aaryanmaralihalli@gmail.com $\cdot$ +91-9019884683 $\cdot$ \href{https://github.com/Aaryansm11}{github.com/Aaryansm11} $\cdot$ \href{https://linkedin.com/in/aaryan-maralihalli}{linkedin.com/in/aaryan-maralihalli}
+\end{center}\vspace{0.4ex}
+\section*{Summary}
+Data/platform engineer focused on \textbf{streaming pipelines} --- \textbf{Kafka + Spark + Redis} event-driven systems. Built a load-balanced real-time pipeline (Locust-tested to \textbf{1,000 concurrent users}) and a \textbf{1.3B-datapoint} biosignal pipeline (MIMIC-III). Strong Python/SQL. CS graduate (Jul 2026), IEEE-published.\par\vspace{2pt}
+\section*{Experience}
+\vspace{1pt}\textbf{HyperVerge, Bangalore}\\
+\textit{Integration Engineer Intern}\hfill Jan 2026 -- Jun 2026\par\vspace{1pt}
+\begin{itemize}
+\item Monitored \textbf{post-go-live data, conversion/drop-off, and stabilization} for enterprise fintech clients; configured rate limits and pipelines for production rollouts.
+\item Built \textbf{"HV Deals Bot"} (Python + Slack) to track and report pipeline/deal state across the team.
+\end{itemize}
+\vspace{1pt}\textbf{Integrated Genetic Solutions (IGS), Bangalore}\\
+\textit{Project Intern}\hfill Jun -- Aug 2024\par\vspace{1pt}
+\begin{itemize}
+\item Improved processing of \textbf{5M+ blood-lab values} during a dashboard/data migration on a HIPAA-compliant product.
+\end{itemize}
+\section*{Selected Projects}
+\vspace{1pt}\textbf{Live Emostream --- event-driven streaming}\hfill {\small\href{https://github.com/Aaryansm11/Live_emostream}{github.com/Aaryansm11/Live\_emostream}}
+\begin{itemize}
+\item \textbf{Kafka + Spark Structured Streaming + Redis}, concurrent emoji broadcast over an event-driven architecture; \textbf{nginx} load balancing; \textbf{Locust} load-tested to \textbf{1,000 concurrent users}.
+\end{itemize}
+\vspace{1pt}\textbf{ECG/PPG biosignal pipeline (capstone)}\hfill {\small\href{https://github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}{github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}}
+\begin{itemize}
+\item Built ingestion/preprocessing over \textbf{MIMIC-III} --- \textbf{133K} 10-second segments, 8 channels, \textasciitilde{}\textbf{1.3B} data points stored in \textbf{HDF5}; bandpass filtering, normalization, segmentation.
+\end{itemize}
+\vspace{1pt}\textbf{SDIS}\hfill {\small\href{https://github.com/Aaryansm11/SDIS}{github.com/Aaryansm11/SDIS}}
+\begin{itemize}
+\item Ingestion $\rightarrow$ chunking $\rightarrow$ embeddings (FAISS) $\rightarrow$ \textbf{PostgreSQL} with audit logging; FastAPI service, Dockerized.
+\end{itemize}
+\vspace{1pt}\textbf{FinFusion}
+\begin{itemize}
+\item Multimodal data pipeline fusing market time-series with news-sentiment features.
+\end{itemize}
+\section*{Skills}
+\begin{itemize}
+\item \textbf{Streaming/Data:} Kafka, Spark, Redis, ETL/pipelines, Pandas, NumPy, HDF5, FAISS
+\item \textbf{Storage:} PostgreSQL, MySQL, Neo4j
+\item \textbf{Languages/Infra:} Python, SQL, Java, Docker, AWS (EC2/S3/IAM/ECS), nginx, GitHub Actions (CI), Git
+\item \textbf{CS foundations:} Data Structures \& Algorithms (150+ LeetCode)
+\end{itemize}
+\section*{Publication \& Education}
+\begin{itemize}
+\item \textbf{IEEE ICASI 2026 (Kyoto), Oral Presentation} --- \textit{"An Interpretable Model for Stroke Prediction and Arrhythmia Classification using ECG \& PPG."}
+\item \textbf{B.Tech, Computer Science} --- PES University, Bangalore --- 2022 -- Jul 2026
+\end{itemize}
+\end{document}

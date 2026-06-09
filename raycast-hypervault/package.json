@@ -1,0 +1,78 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "hypervault",
+  "title": "Hypervault",
+  "description": "Capture to, and ask, your HyperVerge SA knowledge vault — with staleness-aware answers.",
+  "icon": "icon.png",
+  "author": "aaryan",
+  "categories": ["Productivity", "Documentation"],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "capture",
+      "title": "Capture to Vault",
+      "subtitle": "Hypervault",
+      "description": "Drop files or paste text straight into the vault inbox.",
+      "mode": "view"
+    },
+    {
+      "name": "ask",
+      "title": "Ask the Vault",
+      "subtitle": "Hypervault",
+      "description": "Ask a question; the answer flags confidence and staleness.",
+      "mode": "view"
+    },
+    {
+      "name": "process-inbox",
+      "title": "Process Inbox",
+      "subtitle": "Hypervault",
+      "description": "Curate raw inbox captures into proper notes (uses Claude).",
+      "mode": "view"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "vaultPath",
+      "title": "Vault Path",
+      "description": "Absolute path to the Hypervault folder.",
+      "type": "textfield",
+      "required": false,
+      "default": "/Users/aaryanmaralihalli/Documents/AI-Project/Hypervault"
+    },
+    {
+      "name": "claudePath",
+      "title": "Claude CLI Path",
+      "description": "Path to the claude binary (leave default unless installed elsewhere).",
+      "type": "textfield",
+      "required": false,
+      "default": "/opt/homebrew/bin/claude"
+    },
+    {
+      "name": "claudeOauthToken",
+      "title": "Claude OAuth Token",
+      "description": "Run `claude setup-token` in Terminal and paste the token here. Lets the box authenticate without Keychain access (Raycast can't read it).",
+      "type": "password",
+      "required": false
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.80.0",
+    "@raycast/utils": "^1.17.0"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^1.0.11",
+    "@types/node": "20.8.10",
+    "@types/react": "19.0.10",
+    "eslint": "^8.57.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.4.5"
+  },
+  "overrides": {
+    "@types/react": "19.0.10"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "lint": "ray lint"
+  }
+}

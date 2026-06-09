@@ -1,0 +1,60 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1ex plus .3ex minus .2ex}{0.5ex plus .1ex}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em, parsep=0pt}
+\setlength{\parindent}{0pt}
+\begin{document}
+\vspace*{-1cm}
+\begin{center}
+{\LARGE\bfseries Aaryan S. Maralihalli}\\[0.5em]
+{\large Backend Software Engineer (Python)}\\[0.3em]
+Bangalore, India $\cdot$ open to remote $\cdot$ aaryanmaralihalli@gmail.com $\cdot$ +91-9019884683 $\cdot$ \href{https://github.com/Aaryansm11}{github.com/Aaryansm11} $\cdot$ \href{https://linkedin.com/in/aaryan-maralihalli}{linkedin.com/in/aaryan-maralihalli}
+\end{center}\vspace{0.4ex}
+\section*{Summary}
+Backend engineer building secure, production-style \textbf{FastAPI} services --- JWT/RBAC, PostgreSQL, vector search, \textbf{CI-tested} (GitHub Actions + pytest). Shipped microservices and integrated production KYC APIs for enterprise fintech clients at HyperVerge. CS graduate (Jul 2026), IEEE-published.\par\vspace{2pt}
+\section*{Experience}
+\vspace{1pt}\textbf{HyperVerge, Bangalore}\\
+\textit{Integration Engineer Intern}\hfill Jan 2026 -- Jun 2026\par\vspace{1pt}
+\begin{itemize}
+\item Integrated and debugged \textbf{production REST APIs/SDKs} for 6 enterprise fintech clients; configured rate limits, staging app IDs, and issued production credentials.
+\item Built \textbf{"HV Deals Bot"} --- a Python + Slack backend service tracking deal state and next steps across the team.
+\end{itemize}
+\vspace{1pt}\textbf{Integrated Genetic Solutions (IGS), Bangalore}\\
+\textit{Project Intern}\hfill Jun -- Aug 2024\par\vspace{1pt}
+\begin{itemize}
+\item Supported \textbf{React + Django} integration for secure uploads and API telemetry on a HIPAA-compliant product processing 5M+ records.
+\end{itemize}
+\section*{Selected Projects}
+\vspace{1pt}\textbf{SDIS --- Secure Document Intelligence Service}\hfill {\small\href{https://github.com/Aaryansm11/SDIS}{github.com/Aaryansm11/SDIS}}
+\begin{itemize}
+\item \textbf{FastAPI} service with \textbf{JWT auth, RBAC, PII redaction (spaCy), immutable audit logging + digital signatures}, FAISS embedding search over \textbf{PostgreSQL} (SQLAlchemy/Alembic); Dockerized (docker-compose). Tested with a \textbf{pytest suite + GitHub Actions CI}.
+\end{itemize}
+\vspace{1pt}\textbf{Langtron-KGS}\hfill {\small\href{https://github.com/Aaryansm11/Langtron-KGS}{github.com/Aaryansm11/Langtron-KGS}}
+\begin{itemize}
+\item \textbf{FastAPI} microservice converting documents to a \textbf{Neo4j} knowledge graph (spaCy NER + BERT relation extraction) with REST API + Streamlit.
+\end{itemize}
+\vspace{1pt}\textbf{Live Emostream}\hfill {\small\href{https://github.com/Aaryansm11/Live_emostream}{github.com/Aaryansm11/Live\_emostream}}
+\begin{itemize}
+\item Event-driven \textbf{Kafka + Spark + Redis} pipeline, \textbf{nginx} load balancing, Locust-tested to \textbf{1,000 concurrent users}.
+\end{itemize}
+\vspace{1pt}\textbf{Hospital Management System}\hfill {\small\href{https://github.com/Aaryansm11/hospital_management_ooad}{github.com/Aaryansm11/hospital\_management\_ooad}}
+\begin{itemize}
+\item \textbf{Java + Spring Boot + MySQL} CRUD service (OOAD design) --- backend breadth beyond Python.
+\end{itemize}
+\section*{Skills}
+\begin{itemize}
+\item \textbf{Languages:} Python, Java, SQL, JavaScript
+\item \textbf{Backend:} FastAPI (async), Flask, Spring Boot, REST, JWT, RBAC, asyncio, SQLAlchemy/Alembic
+\item \textbf{Data/Infra:} PostgreSQL, MySQL, Neo4j, Redis, Kafka, Spark, FAISS, Docker, AWS (EC2/S3/IAM/ECS), Git
+\item \textbf{CS foundations \& quality:} Data Structures \& Algorithms (150+ LeetCode), OOAD, DBMS, testing (pytest), CI/CD (GitHub Actions)
+\end{itemize}
+\section*{Publication \& Education}
+\begin{itemize}
+\item \textbf{IEEE ICASI 2026 (Kyoto), Oral Presentation} --- \textit{"An Interpretable Model for Stroke Prediction and Arrhythmia Classification using ECG \& PPG."}
+\item \textbf{B.Tech, Computer Science} --- PES University, Bangalore --- 2022 -- Jul 2026
+\end{itemize}
+\end{document}

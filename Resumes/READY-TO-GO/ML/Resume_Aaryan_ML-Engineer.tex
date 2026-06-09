@@ -1,0 +1,59 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1ex plus .3ex minus .2ex}{0.5ex plus .1ex}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em, parsep=0pt}
+\setlength{\parindent}{0pt}
+\begin{document}
+\vspace*{-1cm}
+\begin{center}
+{\LARGE\bfseries Aaryan S. Maralihalli}\\[0.5em]
+{\large Machine Learning Engineer}\\[0.3em]
+Bangalore, India $\cdot$ open to remote $\cdot$ aaryanmaralihalli@gmail.com $\cdot$ +91-9019884683 $\cdot$ \href{https://github.com/Aaryansm11}{github.com/Aaryansm11} $\cdot$ \href{https://linkedin.com/in/aaryan-maralihalli}{linkedin.com/in/aaryan-maralihalli}
+\end{center}\vspace{0.4ex}
+\section*{Summary}
+ML engineer who takes models from research to deployment --- DL on signals, \textbf{LLM fine-tuning (LoRA)}, and serving via FastAPI. \textbf{IEEE-published}: built a self-supervised cardiac model (\textbf{ROC-AUC 0.757}); fine-tuned Mistral-7B for sub-100ms retrieval. Healthcare-ML domain depth. CS graduate, Jul 2026.\par\vspace{2pt}
+\section*{Experience}
+\vspace{1pt}\textbf{HyperVerge, Bangalore}\\
+\textit{Integration Engineer Intern}\hfill Jan 2026 -- Jun 2026\par\vspace{1pt}
+{\small\itshape AI identity-verification / KYC platform}\par\vspace{1pt}
+\begin{itemize}
+\item Integrated and optimized \textbf{production AI/ML verification modules} (face match, liveness, name match) for 6 enterprise fintech clients; drove model-scoring changes and post-go-live performance tuning (conversion/drop-off).
+\end{itemize}
+\vspace{1pt}\textbf{Integrated Genetic Solutions (IGS), Bangalore}\\
+\textit{Project Intern, Medical AI}\hfill Jun -- Aug 2024\par\vspace{1pt}
+\begin{itemize}
+\item Worked on ML workflows for medical document processing on a HIPAA-compliant lab-value extraction product.
+\end{itemize}
+\section*{Selected Projects}
+\vspace{1pt}\textbf{Self-Supervised Cardiac Risk Model (capstone / published)}\hfill {\small\href{https://github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}{github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}}
+\begin{itemize}
+\item \textbf{Contrastive learning (SimCLR / NT-Xent)} on \textbf{MIMIC-III} ECG/PPG --- 133K segments; custom 1D-CNN encoder (128-d embeddings) + Random Forest clinical model; \textbf{ROC-AUC 0.757}; \textbf{FastAPI} inference server + XAI (saliency, integrated gradients).
+\end{itemize}
+\vspace{1pt}\textbf{LANGTRON}\hfill {\small\href{https://github.com/Aaryansm11/LANGTRON}{github.com/Aaryansm11/LANGTRON}}
+\begin{itemize}
+\item \textbf{Fine-tuned Mistral-7B (LoRA)} with a dual-model architecture; \textbf{FAISS} semantic retrieval at \textbf{sub-100ms}.
+\end{itemize}
+\vspace{1pt}\textbf{FinFusion}
+\begin{itemize}
+\item Built the \textbf{core multimodal forecasting model} (LSTM time-series + transformer news-sentiment fusion), improving MAPE 15--20\% over single-modal baselines.
+\end{itemize}
+\vspace{1pt}\textbf{Langtron-KGS}\hfill {\small\href{https://github.com/Aaryansm11/Langtron-KGS}{github.com/Aaryansm11/Langtron-KGS}}
+\begin{itemize}
+\item \textbf{SpaCy NER + BERT relation extraction} $\rightarrow$ Neo4j knowledge graph (FastAPI).
+\end{itemize}
+\section*{Skills}
+\begin{itemize}
+\item \textbf{ML/DL:} PyTorch, HuggingFace Transformers, contrastive/self-supervised learning, LoRA fine-tuning, CNNs, Random Forest, XAI
+\item \textbf{LLM/NLP:} LangChain, FAISS, spaCy, BERT, RAG, embeddings
+\item \textbf{Serving/Infra:} FastAPI model serving, Docker, AWS, Python, SQL; DSA (150+ LeetCode)
+\end{itemize}
+\section*{Publication \& Education}
+\begin{itemize}
+\item \textbf{IEEE ICASI 2026 (Kyoto), Oral Presentation} --- \textit{"An Interpretable Model for Stroke Prediction and Arrhythmia Classification using ECG \& PPG."}
+\item \textbf{B.Tech, Computer Science} --- PES University, Bangalore --- 2022 -- Jul 2026
+\end{itemize}
+\end{document}
