@@ -1,8 +1,6 @@
 .DS_Store
 **/.DS_Store
-*.aux
+node_modules/
+.env
+.env.*
 *.log
-*.out
-*.fls
-*.fdb_latexmk
-*.synctex.gz
