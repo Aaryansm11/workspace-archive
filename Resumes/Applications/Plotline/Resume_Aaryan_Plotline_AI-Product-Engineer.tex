@@ -1,0 +1,65 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1ex plus .3ex minus .2ex}{0.5ex plus .1ex}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em, parsep=0pt}
+\setlength{\parindent}{0pt}
+\begin{document}
+\vspace*{-1cm}
+\begin{center}
+{\LARGE\bfseries Aaryan S. Maralihalli}\\[0.5em]
+{\large AI Product Engineer}\\[0.3em]
+Bangalore, India $\cdot$ aaryanmaralihalli@gmail.com $\cdot$ +91-9019884683 $\cdot$ \href{https://github.com/Aaryansm11}{github.com/Aaryansm11} $\cdot$ \href{https://linkedin.com/in/aaryan-maralihalli}{linkedin.com/in/aaryan-maralihalli} $\cdot$ \href{https://portfolio-zeta-ten-85.vercel.app}{portfolio}
+\end{center}\vspace{0.4ex}
+\section*{Summary}
+Engineer who ships \textbf{user-facing AI and real-time systems end-to-end} --- LLM features, sub-100ms retrieval, event-driven pipelines, and the React/TypeScript front-ends on top. At HyperVerge, owned integrations for \textbf{6 consumer-fintech apps} and lifted onboarding \textbf{conversion by 10\% (to \textgreater{}95\%)} by instrumenting drop-off and tuning flows --- the same engagement-and-conversion problem Plotline solves. \textbf{IEEE-published} (interpretable cardiac ML). CS grad, Jul 2026.\par\vspace{2pt}
+\section*{Experience}
+\vspace{1pt}\textbf{HyperVerge, Bangalore}\\
+\textit{Integration Engineer Intern}\hfill Jan 2026 -- Jun 2026\par\vspace{1pt}
+{\small\itshape AI identity-verification platform for consumer fintech apps}\par\vspace{1pt}
+\begin{itemize}
+\item Owned end-to-end integration for \textbf{6 enterprise fintech clients} (HomeCredit, PaytmMoney, Mobikwik, IndMoney+) across \textbf{15+ lines of business}; took \textbf{3 live at \textgreater{}95\% verification conversion --- a 10\% lift}.
+\item Drove \textbf{post-go-live conversion/drop-off analysis} and stabilization --- diagnosed user-journey drop-offs (e.g., IndMoney) and shipped flow optimizations; proactively added modules clients hadn't scoped.
+\item Built \textbf{"HV Deals Bot"} (Python + Slack): tracks every deal's stage and next steps across the team --- internal tooling adopted org-wide for process visibility.
+\end{itemize}
+\vspace{1pt}\textbf{Integrated Genetic Solutions, Bangalore}\\
+\textit{Project Intern, Medical AI \& Web}\hfill Jun 2024 -- Aug 2024\par\vspace{1pt}
+\begin{itemize}
+\item Led migration of a legacy Bootstrap-JS dashboard to \textbf{React (MERN)}, improving processing of \textbf{5M+ lab values} on a HIPAA-compliant product.
+\end{itemize}
+\section*{Selected Projects}
+\vspace{1pt}\textbf{LANGTRON --- AI memory assistant}\hfill {\small\href{https://github.com/Aaryansm11/LANGTRON}{github.com/Aaryansm11/LANGTRON}}
+\begin{itemize}
+\item Fine-tuned \textbf{Mistral-7B (LoRA)}; dual-model architecture; \textbf{FAISS semantic retrieval at sub-100ms} --- latency engineering for interactive AI UX.
+\end{itemize}
+\vspace{1pt}\textbf{Live Emostream --- real-time engagement pipeline}\hfill {\small\href{https://github.com/Aaryansm11/Live_emostream}{github.com/Aaryansm11/Live\_emostream}}
+\begin{itemize}
+\item Event-driven \textbf{Kafka + Spark + Redis} with Flask-SocketIO broadcast and nginx load balancing; \textbf{load-tested to 1,000 concurrent users} (Locust) --- real-time triggers at user scale.
+\end{itemize}
+\vspace{1pt}\textbf{AlgoScope (live)}
+\begin{itemize}
+\item Interactive in-browser algorithm visualizer --- \textbf{React/Next.js + Pyodide} code tracing with animated data-structure views; shipped and deployed (\href{https://algoscope-beta.vercel.app}{algoscope-beta.vercel.app}).
+\end{itemize}
+\vspace{1pt}\textbf{SDIS --- secure RAG service}\hfill {\small\href{https://github.com/Aaryansm11/SDIS}{github.com/Aaryansm11/SDIS}}
+\begin{itemize}
+\item FastAPI retrieval service with JWT/RBAC, PII redaction (spaCy), FAISS over PostgreSQL; Dockerized, \textbf{pytest + GitHub Actions CI}.
+\end{itemize}
+\vspace{1pt}\textbf{Self-Supervised Cardiac Model (IEEE-published)}\hfill {\small\href{https://github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}{github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}}
+\begin{itemize}
+\item Contrastive learning (SimCLR) on MIMIC-III ECG/PPG; \textbf{ROC-AUC 0.757}.
+\end{itemize}
+\section*{Skills}
+\begin{itemize}
+\item \textbf{AI/LLM:} PyTorch, HuggingFace, LoRA fine-tuning, RAG, FAISS, embeddings, LangChain, prompt design
+\item \textbf{Real-time / Backend:} Kafka, Redis, Spark, FastAPI, Flask, PostgreSQL, REST, JWT, Docker, AWS, nginx
+\item \textbf{Product / Front-end:} TypeScript, React, Next.js, Framer Motion, analytics-driven iteration (conversion/drop-off), SDK-style client integration; DSA (150+ LeetCode)
+\end{itemize}
+\section*{Publication \& Education}
+\begin{itemize}
+\item \textbf{IEEE ICASI 2026 (Kyoto), Oral Presentation} --- \textit{"An Interpretable Model for Stroke Prediction and Arrhythmia Classification using ECG \& PPG."}
+\item \textbf{B.Tech, Computer Science} --- PES University, Bangalore --- 2022 -- Jul 2026
+\end{itemize}
+\end{document}

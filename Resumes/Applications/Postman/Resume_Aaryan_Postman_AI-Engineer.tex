@@ -1,0 +1,66 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1ex plus .3ex minus .2ex}{0.5ex plus .1ex}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em, parsep=0pt}
+\setlength{\parindent}{0pt}
+\begin{document}
+\vspace*{-1cm}
+\begin{center}
+{\LARGE\bfseries Aaryan S. Maralihalli}\\[0.5em]
+{\large AI Engineer --- APIs \& Agentic Tooling}\\[0.3em]
+Bangalore, India $\cdot$ aaryanmaralihalli@gmail.com $\cdot$ +91-9019884683 $\cdot$ \href{https://github.com/Aaryansm11}{github.com/Aaryansm11} $\cdot$ \href{https://linkedin.com/in/aaryan-maralihalli}{linkedin.com/in/aaryan-maralihalli} $\cdot$ \href{https://portfolio-zeta-ten-85.vercel.app}{portfolio}
+\end{center}\vspace{0.4ex}
+\section*{Summary}
+API-first AI engineer: spent six months \textbf{living inside enterprise API integrations} (KYC platform $\rightarrow$ 6 fintech clients, 15+ lines of business), and builds LLM systems with the same testing discipline --- \textbf{FastAPI services with pytest + CI}, RAG retrieval, \textbf{LoRA fine-tuning}, agent-style dual-model architectures. \textbf{IEEE-published.} Believes APIs are how AI becomes useful --- which is why Postman's agentic direction fits. CS grad, Jul 2026.\par\vspace{2pt}
+\section*{Experience}
+\vspace{1pt}\textbf{HyperVerge, Bangalore}\\
+\textit{Integration Engineer Intern}\hfill Jan 2026 -- Jun 2026\par\vspace{1pt}
+{\small\itshape AI identity-verification / KYC platform --- client-facing API integrations}\par\vspace{1pt}
+\begin{itemize}
+\item Owned \textbf{end-to-end API integration} for \textbf{6 enterprise fintech clients} across \textbf{15+ lines of business} --- REST APIs for Video KYC, face match, liveness, eSign, DigiLocker, OCR; tested and debugged flows with \textbf{Postman collections} across staging and production.
+\item Took \textbf{3 clients live at \textgreater{}95\% verification conversion --- a 10\% lift}; issued production credentials, configured \textbf{API rate limits} and staging app IDs, and drove post-go-live monitoring and stabilization.
+\item Authored \textbf{Solution Design Docs} (developer-facing integration documentation) and ran client integration calls and go-lives; raised/resolved JIRA tickets with Product/Engineering and shipped a production workaround for an eSign API gap.
+\item Built \textbf{"HV Deals Bot"} (Python + Slack API) for team-wide deal-stage tracking.
+\end{itemize}
+\vspace{1pt}\textbf{Integrated Genetic Solutions, Bangalore}\\
+\textit{Project Intern, Medical AI \& Web}\hfill Jun 2024 -- Aug 2024\par\vspace{1pt}
+\begin{itemize}
+\item Led legacy-JS $\rightarrow$ \textbf{React (MERN)} migration on a HIPAA-compliant product processing \textbf{5M+ lab values}; assisted React + Django API integration for secure uploads and telemetry.
+\end{itemize}
+\section*{Selected Projects}
+\vspace{1pt}\textbf{SDIS --- secure RAG microservice}\hfill {\small\href{https://github.com/Aaryansm11/SDIS}{github.com/Aaryansm11/SDIS}}
+\begin{itemize}
+\item \textbf{FastAPI} REST service --- JWT/RBAC auth, rate limiting, CORS, PII redaction (spaCy), FAISS retrieval over PostgreSQL, immutable audit logging; Dockerized on AWS ECS; \textbf{pytest + GitHub Actions CI} --- API design and test rigor as the core of an AI product.
+\end{itemize}
+\vspace{1pt}\textbf{LANGTRON --- agent-style AI assistant}\hfill {\small\href{https://github.com/Aaryansm11/LANGTRON}{github.com/Aaryansm11/LANGTRON}}
+\begin{itemize}
+\item Fine-tuned \textbf{Mistral-7B (LoRA)}; \textbf{dual-model architecture} (memory + problem-solving) with \textbf{FAISS retrieval at sub-100ms}; fully local.
+\end{itemize}
+\vspace{1pt}\textbf{AlgoScope (live devtool)}
+\begin{itemize}
+\item Paste a Python solution and \textbf{watch the data flow} --- in-browser Pyodide tracing with animated structures; React/Next.js, deployed (\href{https://algoscope-beta.vercel.app}{algoscope-beta.vercel.app}) --- builds tools that make code legible to developers.
+\end{itemize}
+\vspace{1pt}\textbf{Langtron-KGS}\hfill {\small\href{https://github.com/Aaryansm11/Langtron-KGS}{github.com/Aaryansm11/Langtron-KGS}}
+\begin{itemize}
+\item Document $\rightarrow$ knowledge-graph \textbf{FastAPI microservice} (spaCy NER + BERT relation extraction $\rightarrow$ Neo4j).
+\end{itemize}
+\vspace{1pt}\textbf{Self-Supervised Cardiac Model (IEEE-published)}\hfill {\small\href{https://github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}{github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}}
+\begin{itemize}
+\item Contrastive learning on MIMIC-III; \textbf{ROC-AUC 0.757}; FastAPI inference server.
+\end{itemize}
+\section*{Skills}
+\begin{itemize}
+\item \textbf{APIs / Backend:} REST API design (FastAPI, Flask, Django), Postman, JWT/RBAC, rate limiting, webhooks-style event flows, pytest, GitHub Actions CI, Docker, AWS, PostgreSQL, Redis, Kafka
+\item \textbf{AI / LLM:} RAG, FAISS, LoRA fine-tuning, HuggingFace, PyTorch, LangChain, spaCy, prompt/response evaluation
+\item \textbf{Languages \& Tools:} Python, TypeScript (React/Next.js), SQL, Java; technical writing (solution design docs); DSA (150+ LeetCode)
+\end{itemize}
+\section*{Publication \& Education}
+\begin{itemize}
+\item \textbf{IEEE ICASI 2026 (Kyoto), Oral Presentation} --- \textit{"An Interpretable Model for Stroke Prediction and Arrhythmia Classification using ECG \& PPG."}
+\item \textbf{B.Tech, Computer Science} --- PES University, Bangalore --- 2022 -- Jul 2026
+\end{itemize}
+\end{document}

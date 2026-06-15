@@ -2,11 +2,11 @@
 
 > Everything true about Aaryan, in one place. Every resume is tailored *from* this file — nothing gets
 > invented during tailoring. `[CONFIRM: …]` marks gaps the discovery step must fill before final resumes.
-> Last built: 2026-06-06.
+> Last built: 2026-06-06. **Updated 2026-06-12** (synced with GitHub + live portfolio; AlgoScope, portfolio-site, and TypeScript/Next.js confirmed real and verified).
 
 ## Contact
 - Aaryan S. Maralihalli · aaryanmaralihalli@gmail.com · +91-9019884683
-- github.com/Aaryansm11 · linkedin.com/in/aaryan-maralihalli
+- github.com/Aaryansm11 · linkedin.com/in/aaryan-maralihalli · **portfolio: portfolio-zeta-ten-85.vercel.app**
 
 ## Education
 - **PES University, Bangalore** — B.Tech, Computer Science & Engineering — 2022 – **Jul 2026** · CGPA omitted by choice
@@ -53,6 +53,15 @@ Repos: `ecg-ppg-arrhythmia-prediction`, `CAPSTONE75` (deployment). The published
 ### Live Emostream — Event-Driven Real-Time Emotion/Emoji Streaming  `[SDE, Data]`
 - **Kafka + Spark Structured Streaming + Redis + Flask-SocketIO**, concurrent emoji broadcast over event-driven architecture; **nginx load balancing**; **Locust** load tested to 1000 concurrent users.
 
+### ⭐ AlgoScope — In-Browser DSA Visualizer  `[Front-end, SDE]`  *(new, 2026-06; verified)*
+Repo: `algoscope` (TypeScript) · Live: **algoscope-beta.vercel.app**
+- Paste a Python LeetCode solution and **watch it run in-browser** via **Pyodide**: animated data-structure cards, flow arrows, recursion call-stack.
+- **React / Next.js / TypeScript**, deployed on Vercel. Aaryan's main front-end / TypeScript artifact.
+
+### ⭐ Portfolio site  `[Front-end]`  *(new, 2026-06; verified)*
+Repo: `portfolio-site` (TypeScript) · Live: **portfolio-zeta-ten-85.vercel.app**
+- **Next.js + shadcn + TypeScript**, cinematic 3D intro; showcases the full project set. Supersedes the old `Portfolio` (HTML) repo.
+
 ### Hospital Management System (OOAD)  `[SDE — Java]`
 - **Spring Boot + Java + MySQL** CRUD system (departments, doctors, staff, appointments); OOAD design. *(Aaryan's main Java/Spring artifact — important for Java SDE roles.)*
 
@@ -62,9 +71,9 @@ Repos: `ecg-ppg-arrhythmia-prediction`, `CAPSTONE75` (deployment). The published
 ### Minor / supporting: Portfolio (HTML/CSS/JS), AirlineDB front-end, course repos. Duplicate capstone repos to archive: `CAPSTONE-100-ALTERNATE`, `demo_capstone`, `capstone_proto`.
 
 ## Skills (consolidated, accurate)
-- **Languages:** Python, Java, JavaScript (React), SQL
+- **Languages:** Python, Java, **TypeScript / JavaScript** (React, **Next.js**), SQL  *(TypeScript now real — see algoscope + portfolio-site)*
 - **ML / AI:** PyTorch, HuggingFace Transformers, LangChain, FAISS, spaCy, BERT; contrastive / self-supervised learning, LoRA fine-tuning, RAG, XAI (saliency, integrated gradients), Random Forest
-- **Backend / Web:** FastAPI, Flask, Spring Boot, Django, React (MERN), REST, JWT, RBAC, Streamlit
+- **Backend / Web:** FastAPI, Flask, Spring Boot, Django, **React, Next.js (TypeScript), shadcn**, MERN, REST, JWT, RBAC, Streamlit
 - **Data / Infra:** Kafka, Spark, Redis, Neo4j, PostgreSQL, MySQL, HDF5, Pandas/NumPy
 - **Cloud / DevOps:** AWS (EC2, S3, IAM, ECS), Docker, GitHub Actions, nginx, Locust
 - **Domain:** KYC/identity & fintech integrations, healthcare/biosignals (ECG/PPG), solution design, BI & stabilization
@@ -77,8 +86,15 @@ Repos: `ecg-ppg-arrhythmia-prediction`, `CAPSTONE75` (deployment). The published
 - Graduation **Jul 2026**, no CGPA. Target: **Bangalore / remote** now, **US later**. Level: **new-grad**.
 - **FinFusion = Aaryan's own work.** **IGS = keep** (led Bootstrap-JS → React migration).
 
+## Confirmed / synced (2026-06-12 — verified on GitHub + live sites)
+- **AlgoScope** (`algoscope`, TypeScript) and **portfolio-site** (`portfolio-site`, Next.js/TypeScript) are real, deployed, and his — verified on GitHub. **TypeScript / Next.js are now genuine skills** — this supersedes the earlier "lacked TypeScript" note (it became real via these two builds). They can be claimed and defended.
+- Dup capstone repos archived (`demo_capstone`, `capstone_proto`, `CAPSTONE-100-ALTERNATE`); SDIS, ecg-ppg, our-life-hq, LANGTRON, Langtron-KGS, Live_emostream all live & public.
+- Live portfolio headline: "AI/ML Engineer & Solutions/Integration Engineer."
+- `[CONFIRM: LeetCode "150+" — the AI/ML resumes (Razorpay/Postman/Plotline) claim 150+ solved. Verify the milestone is actually reached before shipping that number.]`
+- **Canonical workspace = `~/Documents/aaryan-workspace-private`** (the older `~/Documents/AI-Project` is a stale duplicate; a private `workspace-archive` repo also exists on GitHub).
+
 ## Remaining / needs input
-- **GitHub write access:** `gh` is logged in as `aaryansmaralihalli` but repos are under `Aaryansm11` (read-only) → can't push until re-auth as `Aaryansm11`, or Aaryan applies changes manually.
+- ~~**GitHub write access**~~ — **RESOLVED:** repos are under `Aaryansm11` and pushes work (`portfolio-site`, `algoscope`, SDIS pushed 2026-06).
 - **HV Deals Bot** code location (to sanitize + publish).
 - **Hospital Mgmt** — OK to add CI workflow + starter tests?
 - Canonical capstone repo to keep (proposed: keep `ecg-ppg-arrhythmia-prediction` + `CAPSTONE75`; archive `demo_capstone`, `capstone_proto`, `CAPSTONE-100-ALTERNATE`).

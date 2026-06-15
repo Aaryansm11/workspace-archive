@@ -1,0 +1,64 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1ex plus .3ex minus .2ex}{0.5ex plus .1ex}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em, parsep=0pt}
+\setlength{\parindent}{0pt}
+\begin{document}
+\vspace*{-1cm}
+\begin{center}
+{\LARGE\bfseries Aaryan S. Maralihalli}\\[0.5em]
+{\large Machine Learning Engineer --- Edge \& Multimodal AI}\\[0.3em]
+Bangalore, India $\cdot$ aaryanmaralihalli@gmail.com $\cdot$ +91-9019884683 $\cdot$ \href{https://github.com/Aaryansm11}{github.com/Aaryansm11} $\cdot$ \href{https://linkedin.com/in/aaryan-maralihalli}{linkedin.com/in/aaryan-maralihalli} $\cdot$ \href{https://portfolio-zeta-ten-85.vercel.app}{portfolio}
+\end{center}\vspace{0.4ex}
+\section*{Summary}
+ML engineer who builds \textbf{small, efficient deep models on raw sensor streams} --- an IEEE-published \textbf{\textasciitilde{}238K-parameter 1D-CNN} over multi-channel ECG/PPG waveforms (ROC-AUC 0.757), multimodal fusion, and \textbf{fully-local LLM systems with sub-100ms retrieval} (no cloud dependency). Comfortable from self-supervised training through \textbf{FastAPI/Docker deployment} and real-time pipelines --- the model-to-edge path. CS grad, Jul 2026.\par\vspace{2pt}
+\section*{Experience}
+\vspace{1pt}\textbf{HyperVerge, Bangalore}\\
+\textit{Integration Engineer Intern}\hfill Jan 2026 -- Jun 2026\par\vspace{1pt}
+{\small\itshape AI identity-verification platform --- production computer-vision modules}\par\vspace{1pt}
+\begin{itemize}
+\item Integrated \textbf{production vision/AI verification modules} (face match, liveness/selfie, document OCR) for \textbf{6 enterprise fintech clients}; took \textbf{3 live at \textgreater{}95\% verification conversion --- a 10\% lift} --- with post-go-live performance monitoring and edge-case failure analysis.
+\item Authored Solution Design Docs and drove model-flow tuning against real-world capture conditions (drop-off and conversion diagnostics across 15+ lines of business).
+\end{itemize}
+\vspace{1pt}\textbf{Integrated Genetic Solutions, Bangalore}\\
+\textit{Project Intern, Medical AI}\hfill Jun 2024 -- Aug 2024\par\vspace{1pt}
+\begin{itemize}
+\item Worked on ML workflows for medical document extraction on a HIPAA-compliant product; led a legacy-JS $\rightarrow$ \textbf{React (MERN)} migration improving processing of \textbf{5M+ lab values}.
+\end{itemize}
+\section*{Selected Projects}
+\vspace{1pt}\textbf{Self-Supervised Sensor-Stream Model (IEEE-published)}\hfill {\small\href{https://github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}{github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}}
+\begin{itemize}
+\item \textbf{Contrastive learning (SimCLR/NT-Xent)} on \textbf{MIMIC-III} raw ECG/PPG --- \textbf{133K segments, 8 channels}; designed a custom \textbf{1D-CNN WaveformEncoder (\textasciitilde{}238K params, 128-d embeddings)} --- compact enough for constrained inference; \textbf{multimodal fusion} with a clinical Random Forest; \textbf{ROC-AUC 0.757} vs CHA2DS2-VASc baseline; \textbf{XAI} (temporal saliency, channel importance, integrated gradients); FastAPI inference server.
+\end{itemize}
+\vspace{1pt}\textbf{LANGTRON --- fully-local LLM system}\hfill {\small\href{https://github.com/Aaryansm11/LANGTRON}{github.com/Aaryansm11/LANGTRON}}
+\begin{itemize}
+\item Fine-tuned \textbf{Mistral-7B (LoRA)}; dual-model architecture; \textbf{FAISS retrieval at sub-100ms}; runs \textbf{100\% on-device, zero cloud} --- built for the privacy/latency constraints edge AI lives under.
+\end{itemize}
+\vspace{1pt}\textbf{FinFusion --- multimodal forecasting}
+\begin{itemize}
+\item \textbf{LSTM time-series + transformer sentiment fusion}, improving MAPE 15--20\% over single-modal baselines.
+\end{itemize}
+\vspace{1pt}\textbf{Live Emostream --- real-time stream processing}\hfill {\small\href{https://github.com/Aaryansm11/Live_emostream}{github.com/Aaryansm11/Live\_emostream}}
+\begin{itemize}
+\item Event-driven \textbf{Kafka + Spark + Redis} pipeline with nginx load balancing; \textbf{load-tested to 1,000 concurrent users} (Locust).
+\end{itemize}
+\vspace{1pt}\textbf{Langtron-KGS}\hfill {\small\href{https://github.com/Aaryansm11/Langtron-KGS}{github.com/Aaryansm11/Langtron-KGS}}
+\begin{itemize}
+\item SpaCy NER + BERT relation extraction $\rightarrow$ \textbf{Neo4j} knowledge graph; FastAPI microservice.
+\end{itemize}
+\section*{Skills}
+\begin{itemize}
+\item \textbf{ML / DL:} PyTorch, contrastive/self-supervised learning, CNN architecture design (1D/temporal), multimodal fusion, LoRA fine-tuning, HuggingFace, XAI (saliency, integrated gradients), scikit-learn
+\item \textbf{Efficiency \& Serving:} compact-model design, local/offline LLM inference (FAISS, quantized runtimes), FastAPI model serving, Docker, AWS, streaming inference (Kafka, Redis, Spark)
+\item \textbf{Foundations:} Python, SQL, Java, C-family; signal/time-series processing (HDF5, NumPy/Pandas); \textbf{Graphics Programming with WebGL} (PESU I/O certification); DSA (150+ LeetCode)
+\end{itemize}
+\section*{Publication \& Education}
+\begin{itemize}
+\item \textbf{IEEE ICASI 2026 (Kyoto), Oral Presentation} --- \textit{"An Interpretable Model for Stroke Prediction and Arrhythmia Classification using ECG \& PPG."}
+\item \textbf{B.Tech, Computer Science} --- PES University, Bangalore --- 2022 -- Jul 2026
+\end{itemize}
+\end{document}
