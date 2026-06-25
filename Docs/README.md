@@ -1,5 +1,5 @@
 # Project Documentation — Aaryan's Workspace
-**Period:** 2026-06-06 → 2026-06-20 · **Owner:** Aaryan S. Maralihalli
+**Period:** 2026-06-06 → 2026-06-25 · **Owner:** Aaryan S. Maralihalli
 **Canonical workspace:** `~/Documents/aaryan-workspace-private` (mirrored to private GitHub repo `Aaryansm11/workspace-archive`). The older `~/Documents/AI-Project` is a stale duplicate.
 
 This documents everything built and done across the engagement: the goal, the agenda, the process, and every workstream — what was done, **why**, and **what's left**.
@@ -30,6 +30,7 @@ After learning he would **not be converted to full-time at HyperVerge**, the mis
 | 8 | **Market research, salary/stability & referrals** | [08-market-research-and-referrals.md](08-market-research-and-referrals.md) |
 | 9 | **DDIA book distillation** | [09-ddia-distillation.md](09-ddia-distillation.md) |
 | 10 | **Portfolio, profile sync & infra** | [10-portfolio-profile-and-infra.md](10-portfolio-profile-and-infra.md) |
+| 11 | **AlgoScope build + portfolio/infra session (full log)** | [11-algoscope-and-build-session.md](11-algoscope-and-build-session.md) |
 
 ## Timeline
 1. **Concept:** a KB ages into a trap unless notes are written to be re-verified → the half-life convention system.
@@ -42,6 +43,7 @@ After learning he would **not be converted to full-time at HyperVerge**, the mis
 8. **Market research + referrals:** 5-agent analysis (`_Market-Analysis.md`), salary/stability, referral playbook (Madhumita, Manav, Pranav), LinkedIn paste-ready content.
 9. **DDIA distillation:** 491 pages → a ~17k-word core guide via a read/condense/review agent pipeline.
 10. **Portfolio + profile:** AlgoScope + portfolio-site (TS, live) → Master Profile synced; LinkedIn vanity-URL fixed across all resumes + portfolio.
+11. **AlgoScope shipped in full + infra hardened:** complete DSA visualizer (Pyodide); featured "NEW" card on the portfolio; role title → Solutions/Integration Engineer; film-grade intro reverted; **Vercel auto-deploy on push (no tokens)**; AI attribution stripped from history; GitHub profile README revamped. Full log → [11](11-algoscope-and-build-session.md).
 
 ## Status at a glance
 - ✅ Hypervault KB, Raycast extension (needs token + load), 10 resumes + master (LaTeX, ATS-safe)
