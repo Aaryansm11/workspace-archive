@@ -1,0 +1,68 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1ex plus .3ex minus .2ex}{0.5ex plus .1ex}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em, parsep=0pt}
+\setlength{\parindent}{0pt}
+\begin{document}
+\vspace*{-1cm}
+\begin{center}
+{\LARGE\bfseries Aaryan S. Maralihalli}\\[0.5em]
+{\large AI Backend Developer (Python  \textbar{}  LLMs  \textbar{}  Vector Search  \textbar{}  Distributed Systems)}\\[0.3em]
+Bangalore, India $\cdot$ aaryanmaralihalli@gmail.com $\cdot$ +91-9019884683 $\cdot$ \href{https://github.com/Aaryansm11}{github.com/Aaryansm11} $\cdot$ \href{https://linkedin.com/in/aaryan-maralihalli}{linkedin.com/in/aaryan-maralihalli} $\cdot$ \href{https://portfolio-zeta-ten-85.vercel.app}{portfolio}
+\end{center}\vspace{0.4ex}
+\section*{Summary}
+Backend engineer building \textbf{AI-native, event-driven systems end-to-end} --- \textbf{FastAPI} services, \textbf{LLM integration + RAG}, \textbf{vector \& semantic search} (pgvector / FAISS), and high-volume \textbf{media pipelines} on object storage. Built a distributed, Kafka-backed platform that ingests audio/PDF media and serves ML over versioned HTTP contracts. Strong CS foundation (system design, DSA --- 150+ LeetCode) and an ownership mindset: I ship what I design. CS graduate (Jul 2026), \textbf{IEEE-published}.\par\vspace{2pt}
+\section*{Experience}
+\vspace{1pt}\textbf{HyperVerge, Bangalore}\\
+\textit{Integration Engineer Intern}\hfill Jan 2026 -- Jun 2026\par\vspace{1pt}
+{\small\itshape Enterprise AI identity-verification platform}\par\vspace{1pt}
+\begin{itemize}
+\item Integrated \textbf{production REST APIs / SDKs} for \textbf{6 enterprise fintech clients}; diagnosed user-journey drop-offs and shipped flow optimizations --- took \textbf{3 live at \textgreater{}95\% conversion}.
+\item Built \textbf{"HV Deals Bot"} --- a \textbf{Python + Slack} backend service adopted org-wide for process visibility.
+\end{itemize}
+\vspace{1pt}\textbf{Integrated Genetic Solutions (IGS), Bangalore}\\
+\textit{Project Intern}\hfill Jun 2024 -- Aug 2024\par\vspace{1pt}
+\begin{itemize}
+\item Supported \textbf{React + Django} integration for secure uploads and API telemetry on a HIPAA-compliant medical-AI product (\textbf{5M+ records}).
+\end{itemize}
+\section*{Selected Projects}
+\vspace{1pt}\textbf{StudyLoop --- event-driven AI platform}
+\begin{itemize}
+\item \textbf{FastAPI} microservices on \textbf{Kafka (Redpanda)} --- gateway + worker services with \textbf{consumer groups, retries+backoff, DLQ + replay, idempotency, graceful degradation}. Ingests \textbf{audio + PDF media} to \textbf{object storage (MinIO/S3)} then ML serving (STT, embeddings, scoring) over \textbf{versioned HTTP contracts}, with \textbf{PostgreSQL + pgvector vector search (HNSW)} for \textbf{semantic retrieval} + LLM coverage scoring. Greenfield, solo-architected and built.
+\end{itemize}
+\vspace{1pt}\textbf{LANGTRON --- AI memory assistant}\hfill {\small\href{https://github.com/Aaryansm11/LANGTRON}{github.com/Aaryansm11/LANGTRON}}
+\begin{itemize}
+\item \textbf{Fine-tuned Mistral-7B (LoRA)}; dual-model (memory + reasoning) architecture; \textbf{FAISS semantic retrieval at sub-100ms} --- LLM integration + retrieval orchestration.
+\end{itemize}
+\vspace{1pt}\textbf{SDIS --- secure RAG service}\hfill {\small\href{https://github.com/Aaryansm11/SDIS}{github.com/Aaryansm11/SDIS}}
+\begin{itemize}
+\item \textbf{FastAPI} retrieval platform with \textbf{JWT/RBAC}, PII redaction (spaCy), \textbf{FAISS embedding search over PostgreSQL}; Dockerized, \textbf{pytest + GitHub Actions CI}.
+\end{itemize}
+\vspace{1pt}\textbf{Langtron-KGS}\hfill {\small\href{https://github.com/Aaryansm11/Langtron-KGS}{github.com/Aaryansm11/Langtron-KGS}}
+\begin{itemize}
+\item Documents to a \textbf{Neo4j knowledge graph} (spaCy NER + BERT relation extraction) with a \textbf{full-text / metadata search} REST API.
+\end{itemize}
+\vspace{1pt}\textbf{Self-Supervised Cardiac Model (IEEE-published)}\hfill {\small\href{https://github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}{github.com/Aaryansm11/ecg-ppg-arrhythmia-prediction}}
+\begin{itemize}
+\item Contrastive representation learning (SimCLR) on MIMIC-III; \textbf{ROC-AUC 0.757}.
+\end{itemize}
+\section*{Skills}
+\begin{itemize}
+\item \textbf{AI / LLM:} LLM integration, \textbf{RAG}, LoRA fine-tuning, embeddings, agent / multi-service orchestration, human-in-the-loop scoring, PyTorch, HuggingFace, LangChain, spaCy, BERT
+\item \textbf{Search:} \textbf{vector search (pgvector, FAISS)}, semantic retrieval, PostgreSQL full-text / metadata search, knowledge graphs (Neo4j)
+\item \textbf{Backend \& APIs:} Python, FastAPI (async), Flask, REST API design, JWT/RBAC, SQLAlchemy/Alembic
+\item \textbf{Distributed / Infra:} Kafka (Redpanda), event-driven architecture, DLQ/retries/idempotency, Docker, AWS (EC2/S3/IAM/ECS), object storage (MinIO/S3, multipart uploads), nginx, GitHub Actions CI
+\item \textbf{Data:} PostgreSQL (+ pgvector), Redis, Neo4j, MySQL --- schema design \& query optimization
+\item \textbf{Foundations:} system design, OOP, Data Structures \& Algorithms (150+ LeetCode), DBMS
+\end{itemize}
+\section*{Publication \& Education}
+\begin{itemize}
+\item \textbf{IEEE ICASI 2026 (Kyoto), Oral Presentation} --- \textit{"An Interpretable Model for Stroke Prediction and Arrhythmia Classification using ECG \& PPG."}
+\item \textbf{B.Tech, Computer Science} --- PES University, Bangalore --- 2022 -- Jul 2026
+\item \textit{Certifications:} WebGL (PESU I/O); Problem Solving --- Intermediate (HackerRank); CITI Program
+\end{itemize}
+\end{document}

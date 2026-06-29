@@ -50,6 +50,12 @@ Repos: `ecg-ppg-arrhythmia-prediction`, `CAPSTONE75` (deployment). The published
 - Enterprise secure **RAG** platform: PII **redaction (spaCy)**, embedding search (**FAISS**, OpenAI/HF), **RBAC + JWT**, **immutable audit logging + digital signatures**, multi-tenancy.
 - **FastAPI**, **PostgreSQL**, rate limiting, CORS; Docker on AWS ECS. `[CONFIRM: align resume bullet to actual repo scope]`
 
+### ⭐ StudyLoop — Event-Driven AI Study Platform  `[SDE, ML, Systems]`  *(new, 2026; in progress)*
+Repos: `studyloop` (private full source) · `studyloop-showcase` (public). Portfolio piece for applied ML × distributed systems.
+- **Event-driven microservices** on a Kafka-compatible broker (**Redpanda**): decomposed a FastAPI monolith into **gateway + transcription-worker + analysis-worker**; topics keyed by `project_id` for per-entity ordering; **consumer groups, manual offset commit, exponential backoff + jitter retries, per-topic dead-letter queues + replay, idempotency ledger (`event_id` / `processed_events`), bounded concurrency, graceful degradation** — verified end-to-end (backpressure / DLQ / replay).
+- **Media + data pipeline:** ingests **audio recordings and PDF documents** → **object storage (MinIO / S3-compatible)** → ML model-serving services (speech-to-text, embeddings, scoring) called over **versioned HTTP contracts** → **PostgreSQL + pgvector vector search (HNSW indexes)** for note↔document semantic relevance (RAG) → LLM coverage scoring.
+- **Stack:** FastAPI (async), **Redpanda/Kafka**, **PostgreSQL + pgvector**, **MinIO**, Redis, Docker Compose; shared `app` package with thin service entrypoints. `[ML models currently served as stable stubs that swap to real impls behind unchanged contracts — systems backbone is built & demoable.]`
+
 ### Live Emostream — Event-Driven Real-Time Emotion/Emoji Streaming  `[SDE, Data]`
 - **Kafka + Spark Structured Streaming + Redis + Flask-SocketIO**, concurrent emoji broadcast over event-driven architecture; **nginx load balancing**; **Locust** load tested to 1000 concurrent users.
 

@@ -1,0 +1,65 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1ex plus .3ex minus .2ex}{0.5ex plus .1ex}
+\setlist[itemize]{noitemsep, topsep=2pt, leftmargin=1.5em, parsep=0pt}
+\setlength{\parindent}{0pt}
+\begin{document}
+\vspace*{-1cm}
+\begin{center}
+{\LARGE\bfseries Aaryan S. Maralihalli}\\[0.5em]
+{\large Backend Developer (Python  \textbar{}  AWS  \textbar{}  PostgreSQL)}\\[0.3em]
+Bangalore, India $\cdot$ aaryanmaralihalli@gmail.com $\cdot$ +91-9019884683 $\cdot$ \href{https://github.com/Aaryansm11}{github.com/Aaryansm11} $\cdot$ \href{https://linkedin.com/in/aaryan-maralihalli}{linkedin.com/in/aaryan-maralihalli} $\cdot$ \href{https://portfolio-zeta-ten-85.vercel.app}{portfolio}
+\end{center}\vspace{0.4ex}
+\section*{Summary}
+Backend engineer who builds \textbf{secure, scalable, event-driven Python services end-to-end} --- REST APIs on \textbf{FastAPI}, relational data on \textbf{PostgreSQL}, message-queued distributed workflows, and a \textbf{media-processing pipeline} (audio + PDF) on object storage. Strong on secure coding (JWT/RBAC, PII redaction, audit logging) and reliability patterns (retries, DLQ, idempotency). Shipped production REST/SDK integrations for enterprise fintech clients at HyperVerge. CS graduate (Jul 2026), IEEE-published.\par\vspace{2pt}
+\section*{Experience}
+\vspace{1pt}\textbf{HyperVerge, Bangalore}\\
+\textit{Integration Engineer Intern}\hfill Jan 2026 -- Jun 2026\par\vspace{1pt}
+{\small\itshape Enterprise AI identity-verification / KYC platform}\par\vspace{1pt}
+\begin{itemize}
+\item Integrated and debugged \textbf{production REST APIs / SDKs} for \textbf{6 enterprise fintech clients}; configured API rate limits, staging app IDs, and issued production credentials.
+\item Drove \textbf{post-go-live performance \& reliability} --- monitored conversion/drop-off, diagnosed failures, and shipped fixes with Product/Engineering; took \textbf{3 clients live at \textgreater{}95\% conversion}.
+\item Built \textbf{"HV Deals Bot"} --- a \textbf{Python + Slack} backend service tracking deal state and next steps across the team.
+\end{itemize}
+\vspace{1pt}\textbf{Integrated Genetic Solutions (IGS), Bangalore}\\
+\textit{Project Intern}\hfill Jun 2024 -- Aug 2024\par\vspace{1pt}
+\begin{itemize}
+\item Supported \textbf{React + Django} integration for secure uploads and API telemetry on a HIPAA-compliant product processing \textbf{5M+ records}.
+\end{itemize}
+\section*{Selected Projects}
+\vspace{1pt}\textbf{StudyLoop --- event-driven AI platform}
+\begin{itemize}
+\item \textit{(Media pipeline + distributed backend)}: decomposed a \textbf{FastAPI} monolith into \textbf{gateway + worker services} on \textbf{Kafka (Redpanda)} --- topics keyed for ordering, \textbf{consumer groups, retries w/ backoff+jitter, dead-letter queues + replay, idempotency ledger, graceful degradation}. Ingests \textbf{audio + PDF media} to \textbf{object storage (MinIO/S3)} then \textbf{PostgreSQL + pgvector}; multi-stage async workflows across services. Dockerized.
+\end{itemize}
+\vspace{1pt}\textbf{SDIS --- Secure Document Intelligence Service}\hfill {\small\href{https://github.com/Aaryansm11/SDIS}{github.com/Aaryansm11/SDIS}}
+\begin{itemize}
+\item \textbf{FastAPI} service with \textbf{JWT auth, RBAC, PII redaction (spaCy), immutable audit logging + digital signatures}; embedding search over \textbf{PostgreSQL} (SQLAlchemy/Alembic); Dockerized with \textbf{pytest + GitHub Actions CI}.
+\end{itemize}
+\vspace{1pt}\textbf{Live Emostream}\hfill {\small\href{https://github.com/Aaryansm11/Live_emostream}{github.com/Aaryansm11/Live\_emostream}}
+\begin{itemize}
+\item Event-driven \textbf{Kafka + Spark + Redis} pipeline with \textbf{nginx} load balancing; \textbf{Locust-tested to 1,000 concurrent users}.
+\end{itemize}
+\vspace{1pt}\textbf{Langtron-KGS}\hfill {\small\href{https://github.com/Aaryansm11/Langtron-KGS}{github.com/Aaryansm11/Langtron-KGS}}
+\begin{itemize}
+\item \textbf{FastAPI} microservice converting documents to a \textbf{Neo4j} knowledge graph (spaCy NER + BERT) --- relational \textit{and} non-relational data modeling.
+\end{itemize}
+\section*{Skills}
+\begin{itemize}
+\item \textbf{Languages:} Python, Java, SQL, JavaScript/TypeScript
+\item \textbf{Backend \& APIs:} FastAPI (async), Flask, Django, Spring Boot, REST API design, JWT, RBAC, SQLAlchemy/Alembic, asyncio
+\item \textbf{Data:} PostgreSQL (+ pgvector), MySQL, Neo4j, Redis --- relational \& non-relational schema design, query optimization
+\item \textbf{Distributed / Infra:} Kafka (Redpanda), event-driven architecture, message queues, DLQ/retries/idempotency, Docker \& docker-compose, AWS (EC2/S3/IAM/ECS), nginx, GitHub Actions CI/CD
+\item \textbf{Media / pipelines:} high-volume audio + PDF ingestion, object storage (MinIO/S3), data pipelines
+\item \textbf{CS foundations:} Data Structures \& Algorithms (150+ LeetCode), OOAD, DBMS, secure coding, testing (pytest)
+\end{itemize}
+\section*{Publication \& Education}
+\begin{itemize}
+\item \textbf{IEEE ICASI 2026 (Kyoto), Oral Presentation} --- \textit{"An Interpretable Model for Stroke Prediction and Arrhythmia Classification using ECG \& PPG."}
+\item \textbf{B.Tech, Computer Science} --- PES University, Bangalore --- 2022 -- Jul 2026
+\item \textit{Certifications:} WebGL (PESU I/O); Problem Solving --- Intermediate (HackerRank); CITI Program
+\end{itemize}
+\end{document}

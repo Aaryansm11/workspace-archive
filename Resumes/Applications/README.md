@@ -31,6 +31,9 @@ Applications/
 | **Glean** | Solutions Architect (Bangalore, hybrid) | ~₹40L+ (senior role; reach, would enter lower) | Reaching out | Nityang (HR), via Manav | Manav intro → apply on link → message Nityang |
 | **Yellow.ai** | SDE / Backend (new-grad track) | ~₹9L to ₹16L (SDE1 avg ~₹10.5L) | ⚠️ Reconsider (unstable) | — | Likely skip: 2 layoff rounds 2025 + comp frozen. Only if nothing better (see `_Market-Analysis.md`) |
 | **Navi** | Associate Product Manager | ~₹10L to ₹20L (avg ~₹15L) | To apply (reach) | Pranav Gangrade (1st°, @ Navi) | Message Pranav → Easy Apply |
+| **RIBU** | AI Backend Developer (Bangalore, onsite) | early-career backend (Bangalore) | To apply (strong fit) | jobs@ribuworld.com (subject "AI Backend Developer") | Confirm LeetCode 150 → email resume |
+| **RIBU** | Senior Backend Developer (Bangalore, onsite) | early-career backend (Bangalore) | To apply (good fit; "Senior" = reach) | jobs@ribuworld.com (subject "Backend Developer") | Email resume; serverless/Camunda are named gaps |
+| **Plotline** | Key Account Manager — India | ARR/quota role | ⚠️ Stretch (4+ yrs sales; new-grad) | careers page | Lead with HyperVerge account-expansion; consider Associate-level variant |
 
 See **`_Salary-and-Roles.md`** for prospective companies (Razorpay, Postman, Setu, Cashfree, IDfy, Hasura) with target roles + comp.
 
