@@ -32,6 +32,13 @@ AI identity-verification / KYC platform. Owned client-facing solutioning and int
 
 ## Projects (with accurate tech + role fit)
 
+### ⭐ CallSense — Sales-Call Intelligence Platform  `[ML, SDE, Systems]`  *(new, 2026-07; live + verified)*
+Repo: `callsense` (private) · Live: **callsense-aaryan-s-maralihallis-projects.vercel.app** · API: `callsense-production-d0b3.up.railway.app/docs`
+- Built for an AI-engineer take-home (FitNova sales-call QA), then production-hardened and deployed. **Full loop:** source-agnostic ingestion (folder/REST/CRM adapters, sha256 idempotency keys) → **Postgres-backed job queue (`FOR UPDATE SKIP LOCKED`, retries + backoff + jitter, dead-letter, crash-resume)** → local **faster-whisper** STT (Hinglish; language-hint keeps output in Devanagari) → **voice-based mono diarisation (numpy-only spectral+pitch fingerprints, deterministic 2-means)** with an LLM content-check that flips swapped speaker roles → PII redaction (regex + Luhn) **before** any external API → **Gemini rubric scoring + issue flags behind a closed taxonomy and a quote-verification gate** (Unicode fuzzy match; unverified flags dropped; timestamps derived by code, never the model) → compliance cap (one critical mis-selling flag caps the call score at 40).
+- **Human feedback loop:** advisor disputes → TL upholds/dismisses → composite recomputes (cap lifts) → resolutions become few-shot calibration examples injected into future prompts; append-only audit log. Three role dashboards (Director/TL/Advisor) with audio-synced transcript, flags pinned at timestamps, click-flag-to-seek.
+- **Deployed on free tiers:** Vercel (Next.js; edge rewrite proxies all API traffic because Indian ISPs refuse DNS for `*.up.railway.app`) → Railway Docker (FastAPI + inline worker thread, Whisper `base`) → Neon Postgres. **37 tests + GitHub Actions CI** (postgres service container). Measured: Whisper `small` ≈ 3.3× real-time on CPU; ~300–400 five-minute calls/day/worker.
+- **Stack:** FastAPI, SQLAlchemy 2 + Alembic, PostgreSQL (SKIP LOCKED queue, JSONB, window-function rollup views), faster-whisper, Gemini (google-genai), Next.js + Tailwind + Recharts, Docker Compose, Railway/Vercel/Neon.
+
 ### ⭐ Capstone / Published — Self-Supervised Cardiac Pattern Discovery for Stroke Risk  `[ML, DS]`
 Repos: `ecg-ppg-arrhythmia-prediction`, `CAPSTONE75` (deployment). The published work above.
 - Self-supervised **contrastive learning (SimCLR / NT-Xent)** on **MIMIC-III** ECG/PPG — **133,157** 10s segments, 8 channels, 288 matched patients; custom 1D-CNN **WaveformEncoder** (~238K params, 128-d embeddings).
