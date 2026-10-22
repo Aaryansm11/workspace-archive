@@ -2,7 +2,7 @@
 
 > Everything true about Aaryan, in one place. Every resume is tailored *from* this file — nothing gets
 > invented during tailoring. `[CONFIRM: …]` marks gaps the discovery step must fill before final resumes.
-> Last built: 2026-06-06. **Updated 2026-06-12** (synced with GitHub + live portfolio; AlgoScope, portfolio-site, and TypeScript/Next.js confirmed real and verified).
+> Last built: 2026-06-06. **Updated 2026-06-12** (synced with GitHub + live portfolio; AlgoScope, portfolio-site, and TypeScript/Next.js confirmed real and verified). **Updated 2026-10-22** (added HyperVerge KAM role, Aug 2026 – present).
 
 ## Contact
 - Aaryan S. Maralihalli · aaryanmaralihalli@gmail.com · +91-9019884683
@@ -12,6 +12,21 @@
 - **PES University, Bangalore** — B.Tech, Computer Science & Engineering — 2022 – **Jul 2026** · CGPA omitted by choice
 
 ## Experience
+
+### HyperVerge — Key Account Manager (AE/AM + CSM), KAM India – Mid-Market · **Aug 2026 – Present**  *(added 2026-10-22)*
+Source: `Aaryan_Progress_Tracker_Review_-_Aug-Sep_2026.xlsx` + `Portfolio_Overview_Aaryan.xlsx` (Sep'26 dashboards). `[CONFIRM: exact title on offer letter — the tracker is titled "Internship Progress Tracker"; add "(Intern)" if that is the official title.]`
+- **Book:** took over a **34-account** book from Arunima Srivastava in week 1 — **~$22.4K core MRR (Sep'26), ~$270K ARR run-rate**; **GRR YTD ~112%** (dashboard method; RepTeamwise GRR 111.9%); **16 accounts at NRR ≥ 100%**.
+- **Revenue (stated by Aaryan, 2026-10-22):** **$8K new MRR booked, $5K MRR realised (live + billing) in the first 3 months.**
+- **Segments (BFSI-heavy, mid-market India):** digital & personal lending / credit lines (CreditSea, MoneyTap, WeRize, LoanDigit, UdhaarPay), MSME lending (Protium), gold loans (Indiagold), insurance premium financing (Finsall), leasing (Babalease), bond / fixed-income platforms (Grip Invest, Jiraaf, GoldenPi), stockbroking & wealth (Tiqs Broking, Fabits Capital), crypto exchanges (UnoCoin, BuyUCoin, Crypto India), payments & cross-border (Unlimit, Spice Money), insurance (Torque). Non-BFSI: real-money gaming (Junglee, BattleBucks), mobility (Royal Brothers, ParkPlus, BlitzNow), loyalty (BigCity, prospect).
+- **Negotiation:** CreditSea asked for a discount on Liveness + Facematch → traded it for a **₹4.5L committed MMC** (revenue floor); used it to open first-mover **VKYC** and backup-vendor **eSign** conversations. Closed **Aadigo** (referral via Naveen) at **20k MMC + 50K implementation fee** `[CONFIRM: currency]`.
+- **Deal closure:** revived a standby **RC Verification** deal (Torque Insurance) left from handover → signed → integration underway.
+- **Lead gen:** sourced **4 leads** (3 RC Verification + 1 client referral: Grip → Housing.com), routed to Sales.
+- **Revenue protection:** account-hygiene check found **WeRize billed for Deepfake + Facematch with no signed agreement** → regularising; spotted **Babalease volume dropping to zero** → found prod app running on another NBFC's (Kaynet) staging credentials → agreement signed + usage billed, migrating to own credentials.
+- **Escalations / retention:** de-escalated a **CEO-level escalation at Grip Invest**; positioned compliant **MobileToPan API** as a regulatory-risk fix (Grip's revenue largely on a non-compliant API). Unblocked **Karncy's** onboarding of its largest client (an NBFC) via KYB support. Took **India Gold live on CKYC in one day** ahead of an audit. Resolved **Protium** AML issues blocking customers; Jiraaf BAV integration points closed.
+- **QBRs / visits:** ran **GoldenPi QBR** analysing **10+ onboarding flows**; shadowed Namma Yatri + VoiceClub QBRs; in-person visits planned (MoneyTap, WeRize, Finsall).
+- **Demos:** DigiKYC, VKYC, CRC, FaceAuth + Dedupe; BigCity VKYC (inbound via Razorpay referral) — reframed the pitch around payout leakage / TDS for a non-RBI-regulated loyalty business.
+- **Analytics / strategy:** built a **Portfolio Overview workbook** (account-level GRR/NRR TTM + YTD, NPS, DSO + receivables, QBR/IPV cadence, auto risk flags — 17 of 34 accounts flagged) and an **Account Pulse** market-research brief on 15+ accounts (funding, competitors, growth signals → opportunity per account). Working on **HyperOrbit**, an internal project to structure stakeholder management for the KAM team.
+- **Tools / metrics:** HubSpot, Metabase, HyperCPQ, Hyperstart, Hypernexus, Slack bots; GRR, NRR, MIS, DSO.
 
 ### HyperVerge — Integration Engineer Intern (KYC & identity, fintech) · **Jan 2026 – Jun 2026** (internship)
 AI identity-verification / KYC platform. Owned client-facing solutioning and integrations for banking/fintech accounts.

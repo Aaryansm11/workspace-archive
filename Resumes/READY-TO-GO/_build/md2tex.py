@@ -33,6 +33,7 @@ LINKS = [
     ('hospital', 'https://github.com/Aaryansm11/hospital_management_ooad'),
     ('cloud', 'https://github.com/Aaryansm11/CloudComputingMonolithic'),
     ('airline', 'https://github.com/Aaryansm11/AirlineDBManagement'),
+    ('callsense', 'https://callsense-aaryan-s-maralihallis-projects.vercel.app'),
 ]
 
 
@@ -48,7 +49,7 @@ def esc_text(s):
     for a, b in [('&', r'\&'), ('%', r'\%'), ('#', r'\#'), ('_', r'\_'), ('$', r'\$')]:
         s = s.replace(a, b)
     s = s.replace('{', r'\{').replace('}', r'\}')
-    s = s.replace('~', r'\textasciitilde{}').replace('^', r'\textasciicircum{}')
+    s = s.replace('~', r'$\sim$').replace('^', r'\textasciicircum{}')
     s = s.replace('<', r'\textless{}').replace('>', r'\textgreater{}')
     s = s.replace('—', '---').replace('–', '--').replace('·', r' \textbar{} ')
     s = s.replace('’', "'").replace('‘', "'").replace('“', '``').replace('”', "''")
