@@ -13,10 +13,10 @@ Account manager with an engineering background, running a **34-account, ~$22K MR
 *AI identity-verification / KYC SaaS; BFSI-heavy mid-market book (AE/AM + CSM)*
 - **Took over a 34-account, ~$22K MRR book in week one** and ran it at **~112% GRR** (16 accounts at NRR ≥ 100%), across **digital & personal lending, MSME lending, gold loans, insurance premium financing, bond / fixed-income platforms, stockbroking & wealth, crypto exchanges, payments & cross-border, and insurance**.
 - **Booked $8K in new MRR in the first 3 months — $5K already realised (live and billing)** — through new-logo closes, cross-sell and renegotiations.
-- **Negotiated value, not discounts:** turned a lender's (CreditSea) price-cut ask into an **INR 4.5L committed monthly minimum** — a revenue floor — and used it to open first-mover Video KYC and eSign deals; closed a referral logo (Aadigo) on a monthly minimum plus a one-time implementation fee.
+- **Negotiated value, not discounts:** turned a digital lender's price-cut ask into an **INR 4.5L committed monthly minimum** — a revenue floor — and used it to open first-mover Video KYC and eSign deals; closed a referred new logo on a monthly minimum plus a one-time implementation fee.
 - **Closed and generated pipeline:** revived a dormant RC-Verification deal (Torque Insurance) to signature and into integration; sourced **4 new leads** for Sales, including a client referral to Housing.com.
-- **Protected revenue:** found modules billed with no signed agreement (WeRize) and a client running production on another NBFC's credentials (Babalease); regularised both commercially and got the usage billed — no dispute.
-- **Retained at-risk accounts:** de-escalated a **CEO-level escalation** at Grip Invest, then repositioned a compliant API as a regulatory-risk fix; unblocked an NBFC client's go-live with KYB support; took India Gold **live on CKYC in one day** ahead of an audit.
+- **Protected revenue:** found modules billed with no signed agreement and a lending client running production on another NBFC's credentials; regularised both commercially and got the usage billed — no dispute.
+- **Retained at-risk accounts:** de-escalated a **CEO-level escalation** at a bond-investment platform, then repositioned a compliant API as a regulatory-risk fix; unblocked an NBFC client's go-live with KYB support; took India Gold **live on CKYC in one day** ahead of an audit.
 - **Ran data-led reviews:** delivered a QBR analysing **10+ onboarding funnels** (GoldenPi); built a portfolio dashboard (GRR, NRR, NPS, DSO, QBR / visit cadence, risk flags) to prioritise the book.
 
 **HyperVerge** — Integration Engineer, Solutions (Intern) · Jan 2026 – Jun 2026 · Bangalore
